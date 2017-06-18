@@ -1,0 +1,20 @@
+Source,/Users/locutus/Dropbox/Electronics/Electronics Project/Level Shifter Board/Level Shifter Board.sch
+Kicad Rev,Eeschema 4.0.5
+Generated Date,Saturday, June 17, 2017 'PMt' 04:16:43 PM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+P3,CONN_01X02,conn,CONN_01X02
+U1,SN74LVC244,Ben Parts,SN74LVC244
+P1,CONN_01X04,conn,CONN_01X04
+P2,CONN_01X04,conn,CONN_01X04
+P4,CONN_01X04,conn,CONN_01X04
+P5,CONN_01X04,conn,CONN_01X04
+P6,CONN_01X04,conn,CONN_01X04
+P7,CONN_01X04,conn,CONN_01X04
+P8,CONN_01X04,conn,CONN_01X04
+P9,CONN_01X04,conn,CONN_01X04

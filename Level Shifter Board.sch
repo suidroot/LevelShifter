@@ -1,0 +1,355 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Ben Parts
+LIBS:Level Shifter Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P3
+U 1 1 5945686B
+P 3500 4750
+F 0 "P3" H 3500 4900 50  0000 C CNN
+F 1 "CONN_01X02" V 3600 4750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 3500 4750 50  0001 C CNN
+F 3 "" H 3500 4750 50  0000 C CNN
+	1    3500 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 2300 4400 2300
+Wire Wire Line
+	4400 2300 4400 2900
+Wire Wire Line
+	4400 2900 4550 2900
+Wire Wire Line
+	2550 2400 4300 2400
+Wire Wire Line
+	4300 2400 4300 3000
+Wire Wire Line
+	4300 3000 4550 3000
+Wire Wire Line
+	2550 2500 4200 2500
+Wire Wire Line
+	4200 2500 4200 3100
+Wire Wire Line
+	4200 3100 4550 3100
+Wire Wire Line
+	2550 2600 4100 2600
+Wire Wire Line
+	4100 2600 4100 3200
+Wire Wire Line
+	4100 3200 4550 3200
+Wire Wire Line
+	2550 2800 4000 2800
+Wire Wire Line
+	4000 2800 4000 3300
+Wire Wire Line
+	4000 3300 4550 3300
+Wire Wire Line
+	2550 2900 3900 2900
+Wire Wire Line
+	3900 2900 3900 3400
+Wire Wire Line
+	3900 3400 4550 3400
+Wire Wire Line
+	2550 3000 3800 3000
+Wire Wire Line
+	3800 3000 3800 3500
+Wire Wire Line
+	3800 3500 4550 3500
+Wire Wire Line
+	2550 3100 3700 3100
+Wire Wire Line
+	3700 3100 3700 3600
+Wire Wire Line
+	3700 3600 4550 3600
+Wire Wire Line
+	4300 3800 4550 3800
+Wire Wire Line
+	4400 3900 4550 3900
+Wire Wire Line
+	2550 3300 2700 3300
+Wire Wire Line
+	2550 3400 2800 3400
+Wire Wire Line
+	2550 3500 2900 3500
+Wire Wire Line
+	2550 3600 3000 3600
+Wire Wire Line
+	2550 3800 3100 3800
+Wire Wire Line
+	3100 3800 3100 2800
+Connection ~ 3100 2800
+Wire Wire Line
+	2550 3900 3200 3900
+Wire Wire Line
+	3200 3900 3200 2900
+Connection ~ 3200 2900
+Wire Wire Line
+	2550 4000 3300 4000
+Wire Wire Line
+	3300 4000 3300 3000
+Connection ~ 3300 3000
+Wire Wire Line
+	2550 4100 3400 4100
+Wire Wire Line
+	3400 4100 3400 3100
+Connection ~ 3400 3100
+Wire Wire Line
+	6150 2900 5950 2900
+Wire Wire Line
+	6150 2350 6150 2900
+Wire Wire Line
+	6150 2350 7500 2350
+Wire Wire Line
+	6250 3000 5950 3000
+Wire Wire Line
+	6250 2450 6250 3000
+Wire Wire Line
+	6250 2450 7500 2450
+Wire Wire Line
+	6350 3100 5950 3100
+Wire Wire Line
+	6350 2550 6350 3100
+Wire Wire Line
+	6350 2550 7500 2550
+Wire Wire Line
+	6450 3200 5950 3200
+Wire Wire Line
+	6450 2650 6450 3200
+Wire Wire Line
+	6450 2650 7500 2650
+Wire Wire Line
+	5950 3300 6550 3300
+Wire Wire Line
+	6550 3300 6550 2850
+Wire Wire Line
+	6550 2850 7500 2850
+Wire Wire Line
+	5950 3400 6650 3400
+Wire Wire Line
+	6650 3400 6650 2950
+Wire Wire Line
+	6650 2950 7500 2950
+Wire Wire Line
+	5950 3500 6750 3500
+Wire Wire Line
+	6750 3500 6750 3050
+Wire Wire Line
+	6750 3050 7500 3050
+Wire Wire Line
+	5950 3600 6850 3600
+Wire Wire Line
+	6850 3600 6850 3150
+Wire Wire Line
+	6850 3150 7500 3150
+Wire Wire Line
+	7500 3450 7400 3450
+Wire Wire Line
+	7500 3550 7300 3550
+Wire Wire Line
+	7500 3650 7200 3650
+Wire Wire Line
+	7500 3750 7100 3750
+Wire Wire Line
+	7000 4000 7500 4000
+Wire Wire Line
+	7000 2850 7000 4000
+Connection ~ 7000 2850
+Wire Wire Line
+	6900 4100 7500 4100
+Wire Wire Line
+	6900 2950 6900 4100
+Connection ~ 6900 2950
+Wire Wire Line
+	6800 4200 7500 4200
+Wire Wire Line
+	6800 3050 6800 4200
+Connection ~ 6800 3050
+Wire Wire Line
+	6700 4300 7500 4300
+Wire Wire Line
+	6700 3600 6700 4300
+Connection ~ 6700 3600
+$Comp
+L SN74LVC244 U1
+U 1 1 594582E0
+P 5250 3400
+F 0 "U1" H 5300 3200 50  0000 C CNN
+F 1 "SN74LVC244" H 5250 3100 50  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm" H 5250 3400 50  0001 C CNN
+F 3 "" H 5250 3400 50  0000 C CNN
+	1    5250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4700 5100 4700
+Wire Wire Line
+	5100 4700 5100 4150
+Wire Wire Line
+	3700 4800 5200 4800
+Wire Wire Line
+	5200 4800 5200 4150
+Wire Wire Line
+	4400 3900 4400 4700
+Connection ~ 4400 4700
+Wire Wire Line
+	4300 3800 4300 4700
+Connection ~ 4300 4700
+$Comp
+L CONN_01X04 P1
+U 1 1 59458AA8
+P 2350 2450
+F 0 "P1" H 2350 2700 50  0000 C CNN
+F 1 "CONN_01X04" V 2450 2450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2350 2450 50  0001 C CNN
+F 3 "" H 2350 2450 50  0000 C CNN
+	1    2350 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P2
+U 1 1 59458AFA
+P 2350 2950
+F 0 "P2" H 2350 3200 50  0000 C CNN
+F 1 "CONN_01X04" V 2450 2950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2350 2950 50  0001 C CNN
+F 3 "" H 2350 2950 50  0000 C CNN
+	1    2350 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P4
+U 1 1 59458B36
+P 2350 3450
+F 0 "P4" H 2350 3700 50  0000 C CNN
+F 1 "CONN_01X04" V 2450 3450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2350 3450 50  0001 C CNN
+F 3 "" H 2350 3450 50  0000 C CNN
+	1    2350 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P5
+U 1 1 59458B64
+P 2350 3950
+F 0 "P5" H 2350 4200 50  0000 C CNN
+F 1 "CONN_01X04" V 2450 3950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2350 3950 50  0001 C CNN
+F 3 "" H 2350 3950 50  0000 C CNN
+	1    2350 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P6
+U 1 1 59458B96
+P 7700 2500
+F 0 "P6" H 7700 2750 50  0000 C CNN
+F 1 "CONN_01X04" V 7800 2500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7700 2500 50  0001 C CNN
+F 3 "" H 7700 2500 50  0000 C CNN
+	1    7700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P7
+U 1 1 59458BD2
+P 7700 3000
+F 0 "P7" H 7700 3250 50  0000 C CNN
+F 1 "CONN_01X04" V 7800 3000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7700 3000 50  0001 C CNN
+F 3 "" H 7700 3000 50  0000 C CNN
+	1    7700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P8
+U 1 1 59458C14
+P 7700 3600
+F 0 "P8" H 7700 3850 50  0000 C CNN
+F 1 "CONN_01X04" V 7800 3600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7700 3600 50  0001 C CNN
+F 3 "" H 7700 3600 50  0000 C CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P9
+U 1 1 59458C56
+P 7700 4150
+F 0 "P9" H 7700 4400 50  0000 C CNN
+F 1 "CONN_01X04" V 7800 4150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7700 4150 50  0001 C CNN
+F 3 "" H 7700 4150 50  0000 C CNN
+	1    7700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3300 2700 2300
+Wire Wire Line
+	2800 3400 2800 2400
+Wire Wire Line
+	2900 3500 2900 2500
+Wire Wire Line
+	3000 3600 3000 2600
+Connection ~ 2900 2500
+Connection ~ 2800 2400
+Connection ~ 2700 2300
+Connection ~ 3000 2600
+Wire Wire Line
+	7400 3450 7400 2350
+Connection ~ 7400 2350
+Wire Wire Line
+	7300 3550 7300 2450
+Connection ~ 7300 2450
+Wire Wire Line
+	7200 3650 7200 2550
+Connection ~ 7200 2550
+Wire Wire Line
+	7100 3750 7100 2650
+Connection ~ 7100 2650
+Text Label 4850 4800 0    60   ~ 0
+VCC
+Text Label 4700 4700 0    60   ~ 0
+GND
+$EndSCHEMATC
